@@ -1,6 +1,6 @@
-import type { Project } from '../../types'
+import type { Project } from '../types'
 
-export const arweave = {
+export const arweave: Project = {
   project_name: 'Arweave',
   trusted_metric: false,
   token: 'AR',
@@ -19,4 +19,4 @@ export const arweave = {
   chainid: null,
   coingecko_id: 'arweave',
   fully_diluted_valuation: 272289044,
-} satisfies Project
+}

@@ -1,6 +1,6 @@
 import type { Project } from '../../types'
 
-export default {
+export const arweave = {
   project_name: 'Arweave',
   trusted_metric: false,
   token: 'AR',

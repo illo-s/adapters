@@ -1,6 +1,6 @@
 import type { Project } from '../../types'
 
-export default {
+export const brave = {
   project_name: 'Brave',
   trusted_metric: false,
   token: 'BAT',

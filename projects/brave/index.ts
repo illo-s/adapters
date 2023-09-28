@@ -1,6 +1,6 @@
-import type { Project } from '../../types'
+import type { Project } from '../types'
 
-export const brave = {
+export const brave: Project = {
   project_name: 'Brave',
   trusted_metric: false,
   token: 'BAT',
@@ -19,4 +19,4 @@ export const brave = {
   chainid: null,
   coingecko_id: 'basic-attention-token',
   fully_diluted_valuation: 253495411,
-} satisfies Project
+}

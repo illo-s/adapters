@@ -2,16 +2,20 @@
   "name": "adapters",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "lint": "tsc",
-    "build": "tsup projects/index.ts --format cjs, esm --dts",
-    "ci": "pnpm run lint && pnpm run build"
+    "build": "tsup projects/index.ts --format cjs,esm --dts",
+    "ci": "pnpm run lint && pnpm run build",
+    "release": "pnpm run lint && pnpm run build && changeset publish"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   }

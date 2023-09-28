@@ -1,5 +1,0 @@
----
-"adapters": patch
----
-
-initial commit

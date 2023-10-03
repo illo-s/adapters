@@ -1,6 +1,7 @@
 import type { Project } from '../types'
 
 export const brave: Project = {
+  id: '2',
   project_name: 'Brave',
   trusted_metric: false,
   token: 'BAT',

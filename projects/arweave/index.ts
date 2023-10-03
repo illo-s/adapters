@@ -1,6 +1,7 @@
 import type { Project } from '../types'
 
 export const arweave: Project = {
+  id: '1',
   project_name: 'Arweave',
   trusted_metric: false,
   token: 'AR',

@@ -45,6 +45,7 @@ export type LayerOne =
   | 'BNB'
 
 export type Project = {
+  id: string
   project_name: string
   trusted_metric: boolean
   token: string | null
